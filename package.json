@@ -1,0 +1,17 @@
+{
+  "name": "calculadora-de-investimentos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./src/style.scss:./build/style.css",
+    "tsc": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}

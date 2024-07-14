@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f3efe6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container {
+  background-color: rgba(169, 196, 245, 0.8705882353);
+  border: 5px solid rgba(169, 196, 245, 0.8705882353);
+  border-radius: 6px;
+}
+body .container .calculator {
+  border: 1rem solid #f3efe6;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  padding: 2rem 4rem;
+  width: fit-content;
+  max-width: 45rem;
+  min-width: 35rem;
+}
+body .container .calculator form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container .calculator form label {
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+body .container .calculator form input {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  color: #0b0c5a;
+}
+body .container .calculator form input::placeholder {
+  color: #0b0c5a;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+body .container .calculator form button {
+  font-weight: 600;
+  width: fit-content;
+  background-color: #0b0c5a;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+body .container .calculator p {
+  align-self: center;
+}
+body .container .calculator .result {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 2rem 0 0.5rem 0;
+}
+body .container .calculator #balance {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0b0c5a;
+}
+
+@media screen and (max-width: 376px) {
+  body .container .calculator {
+    max-width: 26rem;
+    min-width: 26rem;
+    padding: 2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

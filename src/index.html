@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../build/style.css" />
+    <title>Calculadora de investimentos</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <form>
+          <label for="valor-inicial">Valor Inicial</label>
+          <input type="text" id="valor-inicial" placeholder="R$0,00" />
+          <label for="deposito">Depósito Mensal</label>
+          <input type="text" id="deposito" placeholder="R$0,00" />
+          <label for="juros">Taxa de Juros Anual (%)</label>
+          <input type="text" id="juros" placeholder="0.00" />
+          <label for="tempo">Tempo (Meses)</label>
+          <input type="text" id="tempo" placeholder="0" />
+          <button type="button" id="button">CALCULAR</button>
+        </form>
+        <p class="result">Resultado</p>
+        <p id="balance">R$0,00</p>
+      </div>
+    </div>
+    <script src="../build/formatting.js"></script>
+    <script src="../build/script.js"></script>
+  </body>
+</html>
